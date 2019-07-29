@@ -2,6 +2,8 @@
 
 This repo have demo and theme code in `packages/` folder and based on github issues system. So, you can write your blog post on github issues and gatsby will build site with these issues.
 
+![Blog With GitHub issues](https://raw.githubusercontent.com/mddanishyusuf/gatsby-theme-blog-with-github/master/gatsby-theme-blog-with-github-preview.png)
+
 See the [live demo](https://blog.mohddanish.me)
 
 ## Installation
