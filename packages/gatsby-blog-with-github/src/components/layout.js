@@ -19,6 +19,7 @@ const Layout = ({ children, isHomepage }) => {
         siteMetadata {
           title
           description
+          githubURL
           social {
             name
             url

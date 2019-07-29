@@ -6,7 +6,7 @@ import {getIcon} from '../config/Functions'
 
 import './header.scss'
 
-const Header = ({ siteMetaData, isHomepage }) => (
+const Header = ({ siteMetaData, isHomepage, username }) => (
   <header>
     <div className="navbar">
     <Link to="/"><h1>{siteMetaData.title}</h1></Link>
@@ -22,7 +22,7 @@ const Header = ({ siteMetaData, isHomepage }) => (
     </div>
     {isHomepage === 1 && <div className="about-me">
       <div className="inner-about-me">
-      <div className="picture"><img src="https://github.com/mddanishyusuf.png" width="120" alt="Mohd Danish"/></div>
+      <div className="picture"><img src={`${siteMetaData.githubURL}.png`} width="120" alt="Mohd Danish"/></div>
       <div className="decription"><p>{siteMetaData.description}</p></div>
     </div></div>}
     

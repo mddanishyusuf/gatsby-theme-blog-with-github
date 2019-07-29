@@ -9,6 +9,7 @@ module.exports = {
             title: `Mohd Danish`,
             description: `Hey 👋, I'm Mohd Danish Yusuf and I'm 26y old Front-end Engineer, I build s public-apis.xyz, dailyhack.xyz, apiwithgithub.com, dynamic-template.xyz, react-index.com & Open Source Developer, Tech Writer, Foodie 🍳`,
             author: `@mddanishyusuf`,
+            githubURL: `https://github.com/mddanishyusuf`,
             social: [
               {
                 name: `twitter`,
