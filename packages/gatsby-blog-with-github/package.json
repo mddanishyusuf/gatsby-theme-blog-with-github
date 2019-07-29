@@ -1,5 +1,10 @@
 {
   "name": "gatsby-blog-with-github",
+  "author": "Mohd Danish Yusuf <mddanishyusuf@gmail.com>",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/mddanishyusuf/gatsby-blog-with-github.git"
+  },
   "version": "0.0.1",
   "description": "A gatsby blog theme with github issues system as CMS",
   "main": "index.js",
@@ -34,5 +39,12 @@
     "gatsby": "^2.13.41",
     "react": "^16.8.6",
     "react-dom": "^16.8.6"
-  }
+  },
+  "keywords": [
+    "gatsby",
+    "gatsby-theme",
+    "gatsby-plugin",
+    "github",
+    "blog"
+  ]
 }
