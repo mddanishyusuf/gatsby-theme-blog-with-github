@@ -1,0 +1,105 @@
+header {
+    padding: 20px 0px 40px 0px;
+    width: 80%;
+    margin: 0px auto;
+
+    @media only screen and (max-width: 600px) {
+        width: 90%;
+
+    }
+
+    .navbar {
+        display: flex;
+        justify-content: space-between;
+
+        ul {
+            margin: 0;
+            padding: 0;
+
+            li {
+                display: inline-block;
+                font-family: 'Space Mono', monospace;
+                font-size: 14px;
+                color: #4f626f;
+                cursor: pointer;
+
+                a {
+                    padding-left: 15px;
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                    margin: 0 5px;
+                    color: #4f626f;
+
+                    span {
+                        display: flex;
+                        align-items: center;
+                        justify-content: center;
+                        margin: 0 5px;
+
+                        @media only screen and (max-width: 600px) {
+
+                            display: none;
+
+                        }
+                    }
+                }
+            }
+        }
+    }
+
+    a {
+        color: #4f626f;
+        text-decoration: none;
+
+        h1 {
+
+            font-family: 'EB Garamond', serif;
+
+            font-weight: 700;
+            font-size: 1.5rem;
+        }
+    }
+
+    .about-me {
+        font-family: 'Space Mono', monospace;
+
+        @media screen and (max-width: 600px) {
+            padding: 20px;
+        }
+
+        margin: 20px auto;
+        max-width: 800px;
+
+        .inner-about-me {
+            border-radius: 10px;
+
+            @media screen and (min-width: 800px) {
+                display: grid;
+                grid-template-columns: 80px auto;
+                // background-color: #f7fafb;
+                padding: 20px;
+                width: 90%;
+                margin: 0 auto;
+            }
+
+            .decription {
+                font-size: 16px;
+                color: #5d5c5c;
+                word-spacing: 1px;
+
+                p {
+                    margin: 0;
+                }
+            }
+
+            .picture {
+
+                img {
+                    border-radius: 50%;
+                    width: 60px;
+                }
+            }
+        }
+    }
+}

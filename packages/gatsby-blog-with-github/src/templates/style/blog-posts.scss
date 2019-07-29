@@ -1,0 +1,36 @@
+.posts-container {
+    width: 90%;
+    margin: 0px auto;
+
+    .blog-post-item {
+        padding: 10px 0px;
+
+        .post-card {
+            .post-title {
+                a {
+                    text-decoration: none;
+                    font-size: 1.5rem;
+                    font-weight: 900;
+                    color: #e36445;
+                }
+            }
+
+            .post-date {
+                font-size: 12px;
+                font-family: 'Space Mono', monospace;
+            }
+
+            .summary {
+                padding: 8px 0px;
+                font-family: 'Space Mono', monospace;
+                color: #5d5c5c;
+                letter-spacing: 1px;
+                word-spacing: 1px;
+
+                p {
+                    font-size: 14px;
+                }
+            }
+        }
+    }
+}

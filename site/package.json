@@ -1,0 +1,20 @@
+{
+  "private": true,
+  "name": "site",
+  "version": "0.0.1",
+  "description": "A demo site based on the gatsby theme plugin",
+  "main": "index.js",
+  "author": "mddanishyusuf",
+  "license": "MIT",
+  "scripts": {
+    "develop": "gatsby develop",
+    "build": "gatsby build",
+    "clean": "gatsby clean"
+  },
+  "dependencies": {
+    "gatsby-blog-with-github": "*",
+    "gatsby": "^2.13.41",
+    "react": "^16.8.6",
+    "react-dom": "^16.8.6"
+  }
+}
