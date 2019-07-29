@@ -1,7 +1,7 @@
 module.exports = {
     plugins: [
       {
-        resolve: "gatsby-blog-with-github",
+        resolve: "gatsby-theme-blog-with-github",
         options: {
           username: "mddanishyusuf",
           repositoryName: "blog-with-github-issues",
