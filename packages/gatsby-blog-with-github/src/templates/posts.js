@@ -18,7 +18,6 @@ function BlogPage({ data, pageContext }) {
         <Layout isHomepage={pageContext.pageNumber}>
             <SEO
                 title="Mohd Danish"
-                description="Top free public APIs collection for top Movies APIs Collection, Weathers APIs Collection, Cryptocurrency APIs Collection, Developments APIs Collection, Music APIs Collection, eCommerce APIs Collection, Machine Learning, Currency Exchange, Games, etc."
             />
             <div className="posts-container">
                 {blogPosts.map((item, index) =>

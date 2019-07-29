@@ -19,7 +19,7 @@ function BlogPostPage({ data, pageContext }) {
     const summary = blogPost.body.split(/\r?\n/)[0]
     return (
         <Layout>
-            <SEO title={`${blogPost.title} - Public APIs`} description={summary} />
+            <SEO title={`${blogPost.title}`} description={summary} />
             <div className="post-container">
                 <div className="post-header">
                     <div className="post-header-inner">
