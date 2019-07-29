@@ -9,7 +9,8 @@
   "scripts": {
     "develop": "gatsby develop",
     "build": "gatsby build",
-    "clean": "gatsby clean"
+    "clean": "gatsby clean",
+    "serve": "gatsby serve"
   },
   "dependencies": {
     "gatsby-blog-with-github": "*",
