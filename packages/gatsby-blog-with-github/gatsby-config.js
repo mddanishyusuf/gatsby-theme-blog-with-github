@@ -1,5 +1,5 @@
-module.exports = ({username, repositoryName, siteMetadata}) => ({
-  siteMetadata: siteMetadata,
+module.exports = ({username, repositoryName, metaData}) => ({
+  siteMetadata: metaData,
   plugins: [
       {
         resolve: `gatsby-source-github-issue`,
