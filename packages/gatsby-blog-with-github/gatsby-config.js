@@ -36,6 +36,7 @@ module.exports = ({username, repositoryName, metaData}) => ({
             }
           ],
         }
-      }
+      },
+      `gatsby-plugin-sitemap`
     ]
 })
