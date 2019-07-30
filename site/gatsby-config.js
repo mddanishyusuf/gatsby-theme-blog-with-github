@@ -9,6 +9,7 @@ module.exports = {
             title: `Mohd Danish`, // website name - required
             description: `Hey 👋, I'm Mohd Danish Yusuf and I'm 26y old Front-end Engineer, I build s public-apis.xyz, dailyhack.xyz, apiwithgithub.com, dynamic-template.xyz, react-index.com & Open Source Developer, Tech Writer, Foodie 🍳`, // cover letter - required
             author: `@mddanishyusuf`, // author name
+            siteUrl: `https://blog.mohddanish.me`,
             githubURL: `https://github.com/mddanishyusuf`, // your github url for photo - required
             social: [
               {
